@@ -7,5 +7,6 @@ struct hero
 	int endurance = 0;
 	int AxWielding = 0;
 	int WeaponOwnership = 0;
+	int countFood = 0;
 };
 
