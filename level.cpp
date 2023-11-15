@@ -9,19 +9,23 @@ void level1()
 		std::cin >> choice;
 		if (choice == 1)
 		{
+			system("cls");
 			std::cout << "Bы разбили окно и вышли на автостраду";
 		}
 		else if (choice == 2)
 		{
+			system("cls");
 			std::cout << "Дверь была закрыта\n1 - выбить окно    2 - позвать на помощь" << std::endl;
 			int choice1 = 0;
 			std::cin >> choice1;
 			if (choice1 == 1)
 			{
+				system("cls");
 				std::cout << "Bы разбили окно и вышли на автостраду" << std::endl;
 			}
 			else if(choice1 == 2)
 			{
+				system("cls");
 				std::cout << "Вам никто не ответил , через окно вы увидели бледную женщину которая пошла в сторону машины\n.Вы резко разбили окно и выползли" << std::endl;
 			}
 		}
@@ -37,6 +41,7 @@ void level1()
 		std::cin >> choice2;
 		if (choice2 == 1)
 		{
+			system("cls");
 			std::cout << "Вы сбили с ног женщину и изрезали ее но она встала и накинулась на вас\n1 - УДАРИТЬ ЖЕНЩИНУ    2 - БЕЖАТЬ" << std::endl;
 			int choice3 = 0;
 			std::cin >> choice3;
@@ -49,11 +54,13 @@ void level1()
 		}
 		else if (choice2 == 2)
 		{
+			system("cls");
 			std::cout << "Вы ударили женщину , но результатов это не принесло и она снова на вас напала\n1 - ВЗЯТЬ ОСКОЛОК    3 - БЕЖАТЬ " << std::endl;
 			int choice4 = 0;
 			std::cin >> choice4;
 			if (choice4 == 1)
 			{
+				system("cls");
 				std::cout << "Вы сбили с ног женщину и изрезали ее но она встала и накинулась на вас, вас укусили\nВЫ ПОГИБЛИ\nХотите ли вы начать заново(1 - да , 2- нет)" << std::endl;
 				int starting = 0;
 				std::cin >> starting;
@@ -69,19 +76,23 @@ void level1()
 			}
 			else
 			{
+				system("cls");
 				std::cout << "Вы убежали разбив окно машины с другой стороны" << std::endl;
 			}
 		}
 		else
 		{
+			system("cls");
 			std::cout << "Вы залезли в машину и вышли с другой стороны разбив окно" << std::endl;
 		}
 		Sleep(3000);
 		system("cls");
 		std::cout << "когда вы вылезли из машины вы увидели толпу людей с другой стороны оставалось решить в какую стороун вы пойдете\n 1 - драться    2 - убежать обратно" << std::endl;
 		int choice5 = 0;
+		std::cin >> choice5;
 		if (choice5 == 1)
 		{
+			system("cls");
 			std::cout << "Вас сьели и вы умерли\nХотите начать уровень заново?(1 - да , 2- нет)" << std::endl;
 			int starting2 = 0;
 			std::cin >> starting2;
@@ -97,7 +108,7 @@ void level1()
 		}
 		else
 		{
-	
+			system("cls");
 			std::cout << "вы полезли обратно" << std::endl;
 		}
 		system("cls");
@@ -106,7 +117,8 @@ void level1()
 		std::cin >> choice6;
 		if (choice6 == 1)
 		{
-			std::cout << "\nВы взяли топор" << std::endl;
+			system("cls");
+			std::cout << "Вы взяли топор" << std::endl;
 		}
 		else
 		{
@@ -147,6 +159,7 @@ void level1()
 
 		}
 		Sleep(3000);
+		system("cls");
 		std::cout << "\nУвидев женщину вы приготовились ударить куда вы будете бить\n1- тело    2 - голову    3 - ногу" << std::endl;
 		int choice8 = 0;
 		std::cin >> choice8;
@@ -169,10 +182,12 @@ void level1()
 		else if (choice8 == 2)
 		{
 			system("cls");
-			std::cout << "Женщина упала и погибла" << std::endl;
+			std::cout << "Женщина упала и погибла\nваше владение топором повысилось до 1" << std::endl;
+
 		}
 		else if (choice8 == 3)
 		{
+			system("cls");
 			std::cout << "Женщина упала ,но полезла к вам и укусила вас за ногу вы закричали и пришла толпа с другой стороны \nВЫ ПОГИБЛИ\nХотите ли вы начать уровень сначала(1 - да , 2- нет)" << std::endl;
 			int starting4 = 0;
 			std::cin >> starting4;
@@ -190,5 +205,17 @@ void level1()
 		system("cls");
 		std::cout << "Все дороги назад были не безопасным и вы отправились в лес.\nКонец 1 главы." << std::endl;
 		Sleep(5000);
+		system("cls");
+		std::cout << "хотите ли вы продолжить игру и перейти во 2 главу?\n(1) - да\n(2) - нет\n";
+		int golevel = 0;
+		std::cin >> golevel;
+		if (golevel == 1)
+		{
+			level2();
+		}
+		else
+		{
+			break;
+		}
 	}
 }

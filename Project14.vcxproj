@@ -133,7 +133,6 @@
     <ClCompile Include="level.cpp" />
     <ClCompile Include="level2.cpp" />
     <ClCompile Include="level3.cpp" />
-    <ClCompile Include="level4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="funcs.h" />

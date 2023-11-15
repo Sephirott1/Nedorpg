@@ -5,14 +5,14 @@
 
 
 int main()
-{
+{   
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
 	
 	while (true)
 	{
-		std::cout << "Жизнь после\n\n(1)Начать игру\n(2)Выбрать главу\n(3)Выйти из игры\n";
+		std::cout << "Жизнь после\n\n(1)Начать новую игру\n(2)Выбрать главу\n(3)Выйти из игры\n";
 		int NumStart = 0;
 		std::cin >> NumStart;
 		if (NumStart == 1)
