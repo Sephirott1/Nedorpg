@@ -18,8 +18,6 @@ int main()
 		if (NumStart == 1)
 		{
 			level1();
-			level2();
-			level3();
 		}
 		else if (NumStart == 2)
 		{
