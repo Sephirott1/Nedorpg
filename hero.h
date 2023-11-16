@@ -1,12 +1,8 @@
 #pragma once
-struct hero
+
+struct Hero
 {
-	int streight = 0;
-	int weight = 0;
-	int speed = 0;
-	int endurance = 0;
-	int AxWielding = 0;
-	int WeaponOwnership = 0;
-	int countFood = 0;
+	short lucky = 0;
+	char state[39] = "Плохо себя чувствует";
 };
 
