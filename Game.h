@@ -5,7 +5,6 @@
 struct Game
 {
 	Hero hero;
-
 	void Menu();
 
 	void level1();
