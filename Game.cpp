@@ -1,36 +1,7 @@
 #include "Game.h"
 #include <windows.h>
 
-//void heroStat()
-//{
-//	Hero hero;
-//	system("cls");
-//	std::cout << "Перед началом игры необходимо задать базоые навыки для персонаж\n(1 очко = 1 навык)\nКол-во очков = 1\nПрокачать удачу - 1\nПрокачать владение топором - 2\nПрокачать владение револьером - 3\n";
-//	int choiceStat = 0;
-//	std::cin >> choiceStat;
-//	system("cls");
-//	if (choiceStat == 1)
-//	{
-//		hero.lucky++;
-//		std::cout << "Удача прокачана!!!";
-//		Sleep(4000);
-//		system("cls");
-//	}
-//	else if (choiceStat == 2)
-//	{
-//		hero.axWie++;
-//		std::cout << "Владение топором прокачано!!!";
-//		Sleep(4000);
-//		system("cls");
-//	}
-//	else if (choiceStat == 2)
-//	{
-//		hero.gunWie++;
-//		std::cout << "Владние револьером прокачано!!!";
-//		Sleep(4000);
-//		system("cls");
-//	}
-//}
+
 void Game::Menu()
 {
 	
@@ -45,31 +16,6 @@ void Game::Menu()
 		}
 		else if (NumStart == 2)
 		{
-			/*std::cout << "Необходимо задать базоые навыки для персонажа (1 очко = 1 навык)\nКол-во очков = 1\nПрокачать удачу - 1\nПрокачать владение топором - 2\nПрокачать владение револьером - 3\n";
-			int choiceStat = 0;
-			std::cin >> choiceStat;
-			system("cls");
-			if (choiceStat == 1)
-			{
-				hero.lucky++;
-				std::cout << "Удача прокачана!!!";
-				Sleep(4000);
-				system("cls");
-			}
-			else if (choiceStat == 2)
-			{
-				hero.axWie++;
-				std::cout << "Владение топором прокачано!!!";
-				Sleep(4000);
-				system("cls");
-			}
-			else if (choiceStat == 2)
-			{
-				hero.gunWie++;
-				std::cout << "Владние револьером прокачано!!!";
-				Sleep(4000);
-				system("cls");
-			}*/
 			system("cls");
 			std::cout << "(1)Глава 1\n";
 			std::cout << "(2)Глава 2\n";
