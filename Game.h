@@ -1,10 +1,8 @@
 #pragma once
 #include <iostream>
-#include "Hero.h"
 
 struct Game
 {
-	Hero hero;
 	void Menu();
 
 	void level1();

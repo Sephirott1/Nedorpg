@@ -189,440 +189,47 @@ void Game::level1()
 				std::cin >> choice7;
 				if (choice7 == 2)
 				{
-					int luckypatron = rand() % 6;
-					if (luckypatron != 1)
+					system("cls");
+					std::cout << "Женщина погибла. Но на звук выстрела пришла толпа зомби и сьела вас\nХотите начать уровень заново?\n1 - да  \n2- нет" << std::endl;
+					int starting2 = 0;
+					std::cin >> starting2;
+					if (starting2 == 1)
 					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 2)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 3)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 4)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 5)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 6)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (hero.lucky == 1)
-					{
-						std::cout << "Благодаря вашей удаче вам попалась ячейка с патроном и вы выстрелии в женщину";
-						Sleep(5000);
-						system("cls");
-						std::cout << "Вы обрадовались что выжили\nНо на звук револьера пришла толпа бледных людей с другой сторoны";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
+						continue;
 					}
 					else
 					{
-						std::cout << "Вам попалась ячейка револьера заряженная патроном";
-						Sleep(5000);
-						system("cls");
-						std::cout << "Вы обрадовались что выжили\nНо на звук револьера пришла толпа бледных людей с другой сторoны";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
+						break;
 					}
 				}
 				else if (choice7 == 1)
 				{
-					int luckypatron = rand() % 6;
-					if (luckypatron != 1)
+					system("cls");
+					std::cout << "Женщине это не нанесло урона она и сьела вас\nХотите начать уровень заново?\n1 - да  \n2- нет" << std::endl;
+					int starting2 = 0;
+					std::cin >> starting2;
+					if (starting2 == 1)
 					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 2)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 3)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 4)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 5)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 6)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (hero.lucky == 1)
-					{
-						std::cout << "Благодаря вашей удаче вам попалась ячейка с патроном и вы выстрелии в женщину";
-						Sleep(5000);
-						system("cls");
-						std::cout << "Но она выжила и сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
+						continue;
 					}
 					else
 					{
-						std::cout << "Вам попалась ячейка револьера заряженная патроном";
-						Sleep(5000);
-						system("cls");
-						std::cout << "Но она выжила и сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
+						break;
 					}
 				}
 				else if (choice7 == 3)
 				{
-					int luckypatron = rand() % 6;
-					if (luckypatron != 1)
+					system("cls");
+					std::cout << "Женщине это не нанесло урона она и сьела вас\nХотите начать уровень заново?\n1 - да  \n2- нет" << std::endl;
+					int starting2 = 0;
+					std::cin >> starting2;
+					if (starting2 == 1)
 					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 2)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 3)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 4)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 5)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (luckypatron != 6)
-					{
-						std::cout << "В ячейке барабана не было патрона и женщина сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
-					}
-					else if (hero.lucky == 1)
-					{
-						std::cout << "Благодаря вашей удаче вам попалась ячейка с патроном и вы выстрелии в женщину";
-						Sleep(5000);
-						system("cls");
-						std::cout << "Но она выжила и сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
+						continue;
 					}
 					else
 					{
-						std::cout << "Вам попалась ячейка револьера заряженная патроном";
-						Sleep(5000);
-						system("cls");
-						std::cout << "Но она выжила и сьела вас";
-						Sleep(5000);
-						system("cls");
-						std::cout << "\nВЫ ПОГИБЛИ!\nХотите ли вы начать уровень сначала? \n1 - да \n2 - нет" << std::endl;
-						int starting3 = 0;
-						std::cin >> starting3;
-						if (starting3 == 1)
-						{
-							continue;
-						}
-						else
-						{
-							break;
-						}
+						break;
 					}
 				}
 			}
